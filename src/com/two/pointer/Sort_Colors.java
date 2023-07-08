@@ -6,11 +6,12 @@ public class Sort_Colors {
 
 		int[] array = new int[] { 1, 0, 2, 1, 1, 0 };
 		sortColors_Approach1(array);
+		System.out.println(array);
 
 	}
 
 	// Dutch National Flag Problem
-	// https://leetcode.com/problems/sort-colors/
+	// https://leetcode.com/problems/sort-colors/  int[] array = new int[] { 1, 0, 2, 1, 1, 0 };
 	public static void sortColors_Approach1(int[] nums) {
 		
 		int start = 0;
